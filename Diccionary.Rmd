@@ -16,7 +16,8 @@ names<- c("variable", "acronym", "units", "description")
 variable<- c("biomass yield", "harvest index" , "number of seeds" , "precipitation", "radiation", "maximum daily temperature", "soil nitrate", "nif abundance", "nitrogenase activity") 
 
 acronym<- c("1","2","3","4","5","6","7","8","9")
-dic<- data.frame(variable, acronym)
+unit <- c("Mg ha-1", "-", "ha-1", "mm", "W m-2", "degrees C", "ppm", "no idea", "mMol h-1")
+dic<- data.frame(variable, acronym, unit)
 kable(dic)
 
 ```
